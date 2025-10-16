@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment files
+.env*
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Package manager files
+yarn.lock
+package-lock.json

@@ -1,5 +1,7 @@
 # Fortune Frame
 
+Fortune Frame is a web app for saving values of user assets (like FIAT currencies, cryptocurrencies, and precious metals) and converting these assets to other units based on current rates.
+
 ## Installation
 
 1. Clone the repository
