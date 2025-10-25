@@ -1,10 +1,11 @@
 import { Outlet } from 'react-router';
+import { Container } from '@/components/layout';
 
 export const LoginLayout = () => {
   return (
-    <div>
+    <Container>
       <h1>Login</h1>
       <Outlet />
-    </div>
+    </Container>
   );
 };

@@ -1,8 +1,7 @@
 import { createBrowserRouter, redirect } from 'react-router';
 import { Home } from './Home';
-import { HomeLayout } from './HomeLayout';
+import { HomeLayout, LoginLayout } from '@/components/layout';
 import { Login } from './Login';
-import { LoginLayout } from './LoginLayout';
 import { Register } from './Register';
 
 export const router = createBrowserRouter([
