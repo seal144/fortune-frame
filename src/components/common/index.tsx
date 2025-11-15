@@ -1,1 +1,2 @@
-export { ThemeSwitch } from './ThemeSwitch';
+export { ThemeToggle } from './ThemeToggle';
+export { PageTitle } from './PageTitle';

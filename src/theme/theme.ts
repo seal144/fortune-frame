@@ -8,7 +8,26 @@ import RobotoMonoExtraLight from './RobotoMono-ExtraLight.ttf';
 
 export const theme = createTheme({
   colorSchemes: {
-    dark: true,
+    light: {
+      palette: {
+        primary: {
+          main: '#bbc2a5',
+        },
+        text: {
+          primary: '#114',
+        },
+      },
+    },
+    dark: {
+      palette: {
+        primary: {
+          main: '#141c18',
+        },
+        text: {
+          primary: '#bbe',
+        },
+      },
+    },
   },
   typography: {
     fontFamily: 'Roboto Mono, monospace',

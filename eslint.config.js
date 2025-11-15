@@ -34,5 +34,8 @@ export default defineConfig([
         tsconfigRootDir: import.meta.dirname,
       },
     },
+    rules: {
+      'react-x/no-array-index-key': 'off',
+    },
   },
 ]);
