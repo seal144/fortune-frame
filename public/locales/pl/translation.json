@@ -1,0 +1,9 @@
+{
+  "Your assets": "Twoje aktywa",
+  "currency_code": "Kod waluty",
+  "currency_name": "Nazwa waluty",
+  "note": "Notatka",
+  "value": "Wartość",
+  "no_assets_added": "Nie masz jeszcze żadnych aktywów. Dodaj swoje pierwsze aktywo, aby rozpocząć.",
+  "error_fetching_assets": "Wystąpił błąd podczas pobierania aktywów."
+}

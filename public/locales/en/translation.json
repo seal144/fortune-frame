@@ -1,0 +1,9 @@
+{
+  "Your assets": "Your assets",
+  "currency_code": "Currency code",
+  "currency_name": "Currency name",
+  "note": "Note",
+  "value": "Value",
+  "no_assets_added": "No assets added yet. Add your first asset to get started.",
+  "error_fetching_assets": "Error occurred while fetching assets."
+}

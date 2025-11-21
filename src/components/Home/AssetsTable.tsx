@@ -7,21 +7,24 @@ import {
   TableBody,
 } from '@mui/material';
 import type { Asset } from '@/types';
+import { useTranslation } from 'react-i18next';
 
 interface Props {
   assets: Asset[];
 }
 
 export const AssetsTable = ({ assets }: Props) => {
+  const { t } = useTranslation();
+
   return (
     <TableContainer>
       <Table>
         <TableHead sx={{ backgroundColor: 'primary.main' }}>
           <TableRow>
-            <TableCell>Code</TableCell>
-            <TableCell>Name</TableCell>
-            <TableCell>Note</TableCell>
-            <TableCell align="right">Value</TableCell>
+            <TableCell>{t('currency_code')}</TableCell>
+            <TableCell>{t('currency_name')}</TableCell>
+            <TableCell>{t('note')}</TableCell>
+            <TableCell align="right">{t('value')}</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
