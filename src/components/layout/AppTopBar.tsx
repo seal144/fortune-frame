@@ -1,7 +1,7 @@
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import { ThemeToggle } from '@/components/common';
+import { ThemeToggler, LanguageToggler } from '@/components/common';
 import Stack from '@mui/material/Stack';
 import { Container } from '@/components/layout';
 
@@ -9,7 +9,7 @@ export const AppTopBar = () => {
   return (
     <AppBar position="static" color="primary" enableColorOnDark>
       <Container>
-        <Toolbar>
+        <Toolbar disableGutters>
           <Stack
             direction="row"
             justifyContent="space-between"
@@ -19,7 +19,10 @@ export const AppTopBar = () => {
             <Typography variant="h5" color="text.primary">
               Fortune Frame
             </Typography>
-            <ThemeToggle />
+            <Stack direction="row" gap={1}>
+              <LanguageToggler />
+              <ThemeToggler />
+            </Stack>
           </Stack>
         </Toolbar>
       </Container>

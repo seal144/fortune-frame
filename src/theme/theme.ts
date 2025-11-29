@@ -85,5 +85,18 @@ export const theme = createTheme({
         }
       `,
     },
+    MuiToggleButton: {
+      styleOverrides: {
+        root: ({ theme }) => ({
+          '&:not(.Mui-selected)': {
+            color: theme.palette.action.disabled,
+            '&:hover': {
+              color: theme.palette.action.active,
+              backgroundColor: theme.palette.action.hover,
+            },
+          },
+        }),
+      },
+    },
   },
 });

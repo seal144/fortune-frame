@@ -36,6 +36,7 @@ export default defineConfig([
     },
     rules: {
       'react-x/no-array-index-key': 'off',
+      '@typescript-eslint/no-floating-promises': 'off',
     },
   },
 ]);

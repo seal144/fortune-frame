@@ -1,10 +1,11 @@
-import ToggleButtonGroup from '@mui/material/ToggleButtonGroup';
-import ToggleButton from '@mui/material/ToggleButton';
 import { useColorScheme } from '@mui/material/styles';
-import LightModeIcon from '@mui/icons-material/LightMode';
-import DarkModeIcon from '@mui/icons-material/DarkMode';
+import {
+  LightMode as LightModeIcon,
+  DarkMode as DarkModeIcon,
+} from '@mui/icons-material';
+import { ToggleButtonGroup, ToggleButton } from '@mui/material';
 
-export const ThemeToggle = () => {
+export const ThemeToggler = () => {
   const { mode, setMode } = useColorScheme();
 
   const toggleTheme = () => {
@@ -12,12 +13,7 @@ export const ThemeToggle = () => {
   };
 
   return (
-    <ToggleButtonGroup
-      value={mode}
-      exclusive
-      onChange={toggleTheme}
-      aria-label="text alignment"
-    >
+    <ToggleButtonGroup value={mode} exclusive onChange={toggleTheme}>
       <ToggleButton value="light" aria-label="light mode" size="small">
         <LightModeIcon sx={{ fontSize: 18 }} />
       </ToggleButton>
