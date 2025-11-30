@@ -1,9 +1,9 @@
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
 import { ThemeToggler, LanguageToggler } from '@/components/common';
 import Stack from '@mui/material/Stack';
 import { Container } from '@/components/layout';
+import { AppLogo } from '@/components/common';
 
 export const AppTopBar = () => {
   return (
@@ -16,9 +16,7 @@ export const AppTopBar = () => {
             alignItems="center"
             width="100%"
           >
-            <Typography variant="h5" color="text.primary">
-              Fortune Frame
-            </Typography>
+            <AppLogo />
             <Stack direction="row" gap={1}>
               <LanguageToggler />
               <ThemeToggler />
