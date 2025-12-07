@@ -5,5 +5,7 @@
   "note": "Note",
   "value": "Value",
   "no_assets_added": "No assets added yet. Add your first asset to get started.",
-  "error_fetching_assets": "Error occurred while fetching assets."
+  "error_fetching_assets": "Error occurred while fetching assets.",
+  "manage_your_assets_with_ease": "Manage your assets with ease.",
+  "login_app_description": "The web application that enables you to record the value of your assets (including fiat currencies, cryptocurrencies, and precious metals) and combines them into a single value calculated using current exchange rates."
 }

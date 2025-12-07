@@ -5,5 +5,7 @@
   "note": "Notatka",
   "value": "Wartość",
   "no_assets_added": "Nie masz jeszcze żadnych aktywów. Dodaj swoje pierwsze aktywo, aby rozpocząć.",
-  "error_fetching_assets": "Wystąpił błąd podczas pobierania aktywów."
+  "error_fetching_assets": "Wystąpił błąd podczas pobierania aktywów.",
+  "manage_your_assets_with_ease": "Zarządzaj swoimi aktywami z łatwością.",
+  "login_app_description": "Aplikacja webowa umożliwiająca zapisywanie Twoich aktywów (walut fiat, kryptowalut i metali szlachetnych) i sumowanie ich do jednej wartości na podstawie aktualnych kursów."
 }
