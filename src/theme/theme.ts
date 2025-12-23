@@ -21,7 +21,7 @@ export const theme = createTheme({
     dark: {
       palette: {
         primary: {
-          main: '#141c18',
+          main: '#23382E',
         },
         text: {
           primary: '#bbe',
@@ -94,6 +94,25 @@ export const theme = createTheme({
               color: theme.palette.action.active,
               backgroundColor: theme.palette.action.hover,
             },
+          },
+        }),
+      },
+    },
+    MuiButton: {
+      styleOverrides: {
+        root: ({ theme }) => ({
+          color: theme.palette.text.primary,
+        }),
+      },
+    },
+    MuiLink: {
+      styleOverrides: {
+        root: ({ theme }) => ({
+          color: theme.palette.text.primary,
+          textDecorationColor: theme.palette.text.primary,
+          '&:hover': {
+            color: theme.palette.primary.light,
+            textDecorationColor: theme.palette.primary.light,
           },
         }),
       },

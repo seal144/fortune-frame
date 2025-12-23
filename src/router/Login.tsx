@@ -1,3 +1,5 @@
+import { LoginRegisterForm } from '@/components/Authentication';
+
 export const Login = () => {
-  return <div>Login</div>;
+  return <LoginRegisterForm />;
 };

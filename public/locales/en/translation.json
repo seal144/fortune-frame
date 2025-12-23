@@ -7,5 +7,16 @@
   "no_assets_added": "No assets added yet. Add your first asset to get started.",
   "error_fetching_assets": "Error occurred while fetching assets.",
   "manage_your_assets_with_ease": "Manage your assets with ease.",
-  "login_app_description": "The web application that enables you to record the value of your assets (including fiat currencies, cryptocurrencies, and precious metals) and combines them into a single value calculated using current exchange rates."
+  "login_app_description": "The web application that enables you to record the value of your assets (including fiat currencies, cryptocurrencies, and precious metals) and combines them into a single value calculated using current exchange rates.",
+  "login": "Login",
+  "signup": "Sign up",
+  "sign_up": "Sign up",
+  "email": "Email",
+  "password": "Password",
+  "required": "Required",
+  "invalid_email_address": "Invalid email address",
+  "password_must_be_at_least_6_characters_long": "Password must be at least 6 characters long",
+  "or": "or",
+  "if_you_dont_have_an_account": "if you don't have an account",
+  "if_you_have_an_account": "if you have an account"
 }

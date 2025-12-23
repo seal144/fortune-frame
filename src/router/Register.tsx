@@ -1,3 +1,5 @@
+import { LoginRegisterForm } from '@/components/Authentication';
+
 export const Register = () => {
-  return <div>Register</div>;
+  return <LoginRegisterForm login={false} />;
 };

@@ -44,7 +44,6 @@ export const LoginLayout = () => {
           marginX={3}
         />
         <Box width="100%">
-          form
           <Outlet />
         </Box>
       </Stack>
