@@ -1,6 +1,7 @@
 import { Stack, Typography } from '@mui/material';
 import SavingsIcon from '@mui/icons-material/Savings';
 import { NavLink } from 'react-router';
+import { DASHBOARD_PATH } from '@/router/router';
 
 interface Props {
   unnavigable?: boolean;
@@ -20,7 +21,7 @@ export const AppLogo = ({ unnavigable = false }: Props) => {
     return <AppLogoContent />;
   }
   return (
-    <NavLink to="/dashboard" style={{ textDecoration: 'none' }}>
+    <NavLink to={DASHBOARD_PATH} style={{ textDecoration: 'none' }}>
       <AppLogoContent />
     </NavLink>
   );
